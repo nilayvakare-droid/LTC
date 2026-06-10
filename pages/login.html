@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LTC Login</title>
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/animations.css">
+<link rel="stylesheet" href="../css/responsive.css">
+
+</head>
+
+<body>
+
+<div class="auth-container">
+
+    <div class="auth-left">
+
+        <div class="auth-brand">
+
+            <h1>Language Through Chaos</h1>
+
+            <p>
+                Enter immersive language worlds and
+                learn through real conversations.
+            </p>
+
+        </div>
+
+        <div class="auth-orb"></div>
+
+    </div>
+
+    <div class="auth-right">
+
+        <div class="auth-card">
+
+            <h2>Welcome Back</h2>
+
+            <p>
+                Continue your language adventure.
+            </p>
+
+           <form id="loginForm">
+
+                <input
+                type="email"
+                placeholder="Email Address">
+
+                <input
+                type="password"
+                placeholder="Password">
+
+                <button
+                type="submit"
+                class="primary-btn">
+
+                Login
+
+                </button>
+
+            <form id="loginForm">
+
+            <div class="divider">
+
+                <span>or continue with</span>
+
+            </div>
+
+            <div class="social-auth">
+
+                <button class="social-btn">
+                    Google
+                </button>
+
+                <button class="social-btn">
+                    GitHub
+                </button>
+
+            </div>
+
+            <div class="auth-footer">
+
+                Don't have an account?
+
+                <a href="signup.html">
+                Sign Up
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+
+document
+.getElementById("loginForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    window.location.href =
+    "dashboard.html";
+
+});
+
+</script>
+</body>
+</html>
